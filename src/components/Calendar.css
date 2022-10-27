@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Pretendard-Regular";
+    src: url("../fonts/Pretendard-Regular.ttf");
+}
+
+.calendar-box {
+    font-family: Pretendard-Regular;
+    font-size : 15px;
+    padding : 70px;
+}
+
+
+.fc-daygrid-day-events{
+   /* text-align: right;*/
+   /*이벤트 박스 css 속성*/
+}
+ /* 일요일 날짜: 빨간색 */
+.fc-day-sun a {
+    color: red;
+}
+  
+ /* 토요일 날짜: 파란색 */
+.fc-day-sat a {
+    color: blue;
+}
+
+.fc-toolbar-chunk {
+    display: flex; /* 일렬로 나란히*/
+    align-items: center; /* 수직 가운데 정렬*/
+  }

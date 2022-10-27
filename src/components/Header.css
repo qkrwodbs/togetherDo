@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Pretendard-Bold";
+    src: url("../fonts/Pretendard-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Pretendard-ExtraLight";
+    src: url("../fonts/Pretendard-ExtraLight.ttf");
+}
+
+.header-box {   
+    background-color: rgba(197, 180, 243, 0.801);    
+    height : 90px;  
+    display : flex;
+    justify-content: center;
+    align-items : center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 3rem;
+    padding-left : 20px;
+    padding-right : 20px;
+}
+
+.description {
+    font-family: Pretendard-ExtraLight;
+    font-size : 15px;
+    padding-left: 50px;
+    color: white;  
+}
+
+.title {
+    text-align: center;
+    font-family: Pretendard-Bold;
+    font-size : 35px;
+    color: white;  
+}
+
+
+.emptybox {
+    display: flex;
+    gap : 20px;
+    justify-content: right;
+    padding-right: 50px;
+    font-size : 30px;
+}
